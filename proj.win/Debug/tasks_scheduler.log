@@ -1,0 +1,20 @@
+﻿d:\my_projects\tasks_scheduler\src\task.cpp(28): error C2039: 'scoped_lock': is not a member of 'std'
+d:\my_projects\tasks_scheduler\src\task.cpp(28): error C2065: 'scoped_lock': undeclared identifier
+d:\my_projects\tasks_scheduler\src\task.cpp(28): error C2146: syntax error: missing ';' before identifier 'locker'
+d:\my_projects\tasks_scheduler\src\task.cpp(28): error C3861: 'locker': identifier not found
+d:\my_projects\tasks_scheduler\src\task.cpp(33): error C2039: 'scoped_lock': is not a member of 'std'
+d:\my_projects\tasks_scheduler\src\task.cpp(33): error C2065: 'scoped_lock': undeclared identifier
+d:\my_projects\tasks_scheduler\src\task.cpp(33): error C2146: syntax error: missing ';' before identifier 'locker'
+d:\my_projects\tasks_scheduler\src\task.cpp(33): error C3861: 'locker': identifier not found
+d:\my_projects\tasks_scheduler\src\task.cpp(55): error C2039: 'scoped_lock': is not a member of 'std'
+d:\my_projects\tasks_scheduler\src\task.cpp(55): error C2065: 'scoped_lock': undeclared identifier
+d:\my_projects\tasks_scheduler\src\task.cpp(55): error C2146: syntax error: missing ';' before identifier 'locker'
+d:\my_projects\tasks_scheduler\src\task.cpp(55): error C3861: 'locker': identifier not found
+d:\my_projects\tasks_scheduler\src\task.cpp(65): error C2039: 'scoped_lock': is not a member of 'std'
+d:\my_projects\tasks_scheduler\src\task.cpp(65): error C2065: 'scoped_lock': undeclared identifier
+d:\my_projects\tasks_scheduler\src\task.cpp(65): error C2146: syntax error: missing ';' before identifier 'locker'
+d:\my_projects\tasks_scheduler\src\task.cpp(65): error C3861: 'locker': identifier not found
+d:\my_projects\tasks_scheduler\src\task.cpp(77): error C2039: 'scoped_lock': is not a member of 'std'
+d:\my_projects\tasks_scheduler\src\task.cpp(77): error C2065: 'scoped_lock': undeclared identifier
+d:\my_projects\tasks_scheduler\src\task.cpp(77): error C2146: syntax error: missing ';' before identifier 'locker'
+d:\my_projects\tasks_scheduler\src\task.cpp(77): error C3861: 'locker': identifier not found

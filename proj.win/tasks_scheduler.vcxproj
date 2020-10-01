@@ -19,7 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Application.cpp" />
+    <ClCompile Include="..\src\CalcFibonacciNumTask.cpp" />
+    <ClCompile Include="..\src\Common.cpp" />
+    <ClCompile Include="..\src\SortBigArrayTask.cpp" />
+    <ClCompile Include="..\src\Task.cpp" />
+    <ClCompile Include="..\src\TasksScheduler.cpp" />
     <ClCompile Include="..\src\tasks_scheduler.cpp" />
+    <ClCompile Include="..\src\TimeDelayTask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Application.h" />
+    <ClInclude Include="..\src\CalcFibonacciNumTask.h" />
+    <ClInclude Include="..\src\Common.h" />
+    <ClInclude Include="..\src\SortBigArrayTask.h" />
+    <ClInclude Include="..\src\Task.h" />
+    <ClInclude Include="..\src\TasksScheduler.h" />
+    <ClInclude Include="..\src\TimeDelayTask.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -109,6 +125,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +162,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

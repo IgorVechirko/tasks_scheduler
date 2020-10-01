@@ -8,10 +8,66 @@
     <Filter Include="main">
       <UniqueIdentifier>{8879a5a5-95fc-4137-a62c-ffa0ca333164}</UniqueIdentifier>
     </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{8b23b42b-c16f-48b5-a277-110f10c2e522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scheduler">
+      <UniqueIdentifier>{bc86d3d0-bc9a-4413-8cd1-b2b1495df246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tasks">
+      <UniqueIdentifier>{bfdc3735-182b-486f-86c1-c4f349104e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tasks\base">
+      <UniqueIdentifier>{fcc5743c-ac0d-4652-a9f6-72c9e31f4e4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\tasks_scheduler.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TasksScheduler.cpp">
+      <Filter>scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Task.cpp">
+      <Filter>tasks\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TimeDelayTask.cpp">
+      <Filter>tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CalcFibonacciNumTask.cpp">
+      <Filter>tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SortBigArrayTask.cpp">
+      <Filter>tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TasksScheduler.h">
+      <Filter>scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Task.h">
+      <Filter>tasks\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TimeDelayTask.h">
+      <Filter>tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CalcFibonacciNumTask.h">
+      <Filter>tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SortBigArrayTask.h">
+      <Filter>tasks</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
